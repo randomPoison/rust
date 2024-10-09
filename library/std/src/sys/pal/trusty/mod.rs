@@ -1,7 +1,5 @@
 //! System bindings for the Trusty OS.
 
-#[path = "../unix/alloc.rs"]
-pub mod alloc;
 #[path = "../unsupported/args.rs"]
 pub mod args;
 #[path = "../unsupported/env.rs"]
