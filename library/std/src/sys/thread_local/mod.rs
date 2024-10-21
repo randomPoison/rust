@@ -107,6 +107,7 @@ pub(crate) mod guard {
         } else if #[cfg(any(
             target_os = "hermit",
             target_os = "xous",
+            target_os = "trusty",
         ))] {
             // `std` is the only runtime, so it just calls the destructor functions
             // itself when the time comes.
